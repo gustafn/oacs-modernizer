@@ -10,7 +10,7 @@
 #  - change to the package, you want to modernize
 #  - run "tclsh oacs-modernizer.tcl"
 # 
-# Advanced usage:
+# Slightly Advanced usage:
 #  - List the differences 
 #       tclsh oacs-modernizer.tcl -diff 1
 #
