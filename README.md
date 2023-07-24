@@ -10,17 +10,17 @@ ones. The original files are preserved with a "-original" suffix.
 
 # Basic Usage:
   - change to the package, you want to modernize
-  - run ``tclsh oacs-modernizer.tcl``
+  - run ``tclsh reduce-deprecated.tcl``
  
 # Slightly Advanced usage:
   - List the differences  
-       ``tclsh oacs-modernizer.tcl -diff 1``
+       ``tclsh reduce-deprecated.tcl -diff 1``
 
   - Undo tue changes of a run  
-       ``tclsh oacs-modernizer.tcl -reset 1 -change 0``
+       ``tclsh reduce-deprecated.tcl -reset 1 -change 0``
 
   - Reset the changes and run the script again  
-       ``tclsh oacs-modernizer.tcl -reset 1``
+       ``tclsh reduce-deprecated.tcl -reset 1``
 
   - Remove the -original files after a run to avoid name clashes  
        ``rm `find . -name \*original` ``
