@@ -16,7 +16,7 @@ ones. The original files are preserved with a "-original" suffix.
   - List the differences  
        ``tclsh reduce-deprecated.tcl -diff 1``
 
-  - Undo tue changes of a run  
+  - Undo the changes of a run  
        ``tclsh reduce-deprecated.tcl -reset 1 -change 0``
 
   - Reset the changes and run the script again  
